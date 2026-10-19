@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.3.5-dist/bootstrap-5.3.5-dist/css/bootstrap.min.css">
+    <title>tabs</title>
+</head>
+<body>
+    <!-- tabs nav bar -->
+     
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+            
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#home">home</button>
+            </li>
+            <li>
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#about">about</button>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="home">
+            <h2>this is a home page</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quae adipisci ea iusto commodi autem deleniti dolor repudiandae. Sunt earum reiciendis voluptatibus temporibus dolorem quaerat animi tempore quam ut quae.</p>
+        </div>
+        <div class="tab-pane fade" id="about">
+            <h2>this is an about page</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ullam consequatur voluptatum, molestiae, repellendus fugiat dignissimos ipsa eos minus natus aliquid cupiditate recusandae tempore mollitia ex beatae soluta repellat odio.</p>
+
+            
+        </div>
+        </div>
+
+
+        <!-- modal -->
+         <button data-bs-toggle="modal" data-bs-target="#xmodal">open</button>
+     
+         <div class="modal-content" id="xmodal">
+            <div class="modal-header">title<button data-bs-dismiss="modal">X</button>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod deleniti quasi doloremque optio hic reiciendis, veritatis aliquid, animi voluptas assumenda pariatur totam placeat cum aut ipsam. Pariatur magnam dolores rem!</p>
+
+         </div>
+         </div>
+         </div>
+         
+
+<!-- 
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+<li class="nav-item" role="presentation">
+<button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
+Home
+</button>
+</li>
+<li class="nav-item" role="presentation">
+<button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
+Profile
+</button>
+</li>
+</ul>
+
+
+<div class="tab-content">
+<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+Home content here
+</div>
+<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+Profile content here
+</div>
+</div>
+Copy
+This uses data-bs-toggle="tab" to activate tabs without custom JavaScript.
+
+Adding Fade Effect
+
+For smooth transitions, add .fade to each .tab-pane and .show to the active one:
+
+<div class="tab-pane fade show active">...</div>
+Copy
+Vertical Tabs (Pills)
+
+You can also create vertical navigation using .flex-column with .nav-pills:
+
+<div class="d-flex align-items-start">
+<div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist">
+<button class="nav-link active" data-bs-toggle="pill" data-bs-target="#v-home">Home</button>
+<button class="nav-link" data-bs-toggle="pill" data-bs-target="#v-profile">Profile</button>
+</div>
+<div class="tab-content">
+<div class="tab-pane fade show active" id="v-home">Home content...</div>
+<div class="tab-pane fade" id="v-profile">Profile content...</div>
+</div>
+</div>-->
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./bootstrap-5.3.5-dist/bootstrap-5.3.5-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="jquery-4.0.0.js"></script>
+    <script>
+        $(function(){
+            $(".h1").css("color","red")
+        });
+        
+    </script>
+</body>
+</html>
